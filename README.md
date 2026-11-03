@@ -17,7 +17,7 @@ The project combines mathematical probability calculations with Monte Carlo simu
 The analysis includes:
 
 - Theoretical probability calculations.
-- A simplified soft-pity model.
+- A simplified, community-derived soft-pity model.
 - The 50/50 featured character system.
 - The guaranteed featured character mechanic.
 - Simulations of 100,000 players.
@@ -38,9 +38,22 @@ The analysis includes:
 
 Contains the calculations, simulations, visualisations and conclusions.
 
+## How to Run
+
+1. Download the Jupyter Notebook from this repository.
+2. Open [Google Colab](https://colab.research.google.com/).
+3. Upload the downloaded `.ipynb` file.
+4. Select **Runtime → Run all** to execute the notebook.
+
 ## Limitations
 
-The soft-pity and 4-star probability models are simplified approximations. The results should therefore not be interpreted as exact predictions of the in-game system.
+The soft-pity and four-star probability models are simplified approximations. The results should therefore not be interpreted as exact predictions of the in-game system.
+
+## Sources
+
+The project uses official HoYoverse information, community-derived probability estimates and project-specific reward and top-up data.
+
+Detailed references and model assumptions are documented in the notebook.
 
 ## Author
 
